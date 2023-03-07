@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.3)  6 MAR 2023 18:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.3)  7 MAR 2023 18:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -149,23 +149,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <./img//AL-loop.png, id=1, 638.385pt x 374.39874pt>
 File: ./img//AL-loop.png Graphic file (type png)
 <use ./img//AL-loop.png>
-Package pdftex.def Info: ./img//AL-loop.png  used on input line 30.
+Package pdftex.def Info: ./img//AL-loop.png  used on input line 29.
 (pdftex.def)             Requested size: 319.19171pt x 187.19891pt.
  [1
 
-{C:/Users/devin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//AL-loop.png>] [2] (test.aux) ) 
+{C:/Users/devin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img//AL-loop.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 45.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 45.
+ [2] [3] (test.aux) ) 
 Here is how much of TeX's memory you used:
- 1950 strings out of 478351
- 31761 string characters out of 2846868
+ 1952 strings out of 478351
+ 31789 string characters out of 2846868
  341358 words of memory out of 3000000
- 20381 multiletter control sequences out of 15000+600000
+ 20383 multiletter control sequences out of 15000+600000
  474194 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,7n,62p,262b,290s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\devin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on test.pdf (2 pages, 92059 bytes).
+ 55i,7n,62p,262b,292s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\devin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on test.pdf (3 pages, 140865 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
