@@ -57,7 +57,7 @@ or hyper-parameters, or structures). Then for a given image,
 we can check if the output changes a lot between models. If it does, 
 it means the models aren’t very consistent about this image, 
 and some of them aren’t doing a good job on this image.
-\section*{Active Learning: Not only one way}
+\section{Active Learning: Not only one way}
 There are three main approaches to the problem :
 \begin{itemize}
     \item Stream based selective sampling
@@ -65,15 +65,15 @@ There are three main approaches to the problem :
     \item Membership query synthesis
 \end{itemize}
 In this project we investigare Pool-Based sampling but a ìn overview of the various methods this article might be a good starting point.
-
-\subsection*{Our approach}
-Our approach can be divided in two main steps:
+\begin{flushleft}
+    Our approach can be divided in two main steps:
+\end{flushleft}
 \begin{itemize}
     \item Pretrain
     \item Active learning loop
 \end{itemize}
 
-\subsection*{Pretrain}
+\subsection{Pretrain}
 This is a crucial part of the method proposed, in fact the quality of the features learned 
 during this phase have a great impact on the final performnace, 
 so we put great consideration in selecting the appropiate pretext task.
@@ -92,16 +92,37 @@ and since to have an effective pretrain we would need to run at least 800 epochs
 we decided to discard this option.
 \end{flushleft}
 \begin{flushleft}
-We then resorted to a simpler task, more specifically rotation prediction, 
-as described in the RotNet paper. The task is pretty straight forward. 
-Given an unlabeled image, we rotate it by 90, 180 and 270 degreees, 
-associating to each rotation a label (0 for no rotation, 1 for 90deg rotation, ecc). 
-We then train a classifier over the rotated images. 
+We then resorted to a simpler task, more specifically \emph{rotation prediction}, 
+as described in the RotNet paper.
+\end{flushleft}
+\subsection{Self supervised task: Predicting rotations}
+\begin{flushleft}
+Supervised feature learning has the main limitation of requiring intensive manual labeling effort, which is both expensive and
+infeasible to scale on the vast amount of visual data that are available today.
+Due to that, there is lately an increased interest to learn high level ConvNet based representations
+in an unsupervised manner that avoids manual annotation of visual data.
+Among them, a prominent paradigm is the so-called self-supervised learning that defines an annotation free pretext task,
+using only the visual information present on the images or videos, in order to provide a surrogate
+supervision signal for feature learning.
 \end{flushleft}
 \begin{flushleft}
-The idea is that the network is forced to focus on important features 
-of the image in order to recognize the rotation thus learning usefull features 
-rappresentaions. The big advantage over the SimSiam approach is the realative low number of epochs it needs. 
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.5]{rotations}
+        \caption{Transformations applied to some input images }
+    \end{figure}
+Our work follows the self-supervised paradigm and learn image representations by training the network to recognize the geometric transformation that is applied to the image that it gets as
+input. 
+
+Those transformations are the image rotations by 0, 90, 180, and 270 degrees. Thus,
+the ConvNet model is trained on the 4-way image classification task of recognizing one of the four
+image rotations. The idea is that in order to be able to recognize the
+rotation transformation that was applied to an image the model will be required to understand the concept of
+the objects depicted in the image, such as their location in the image, their type, and
+their pose.
+\end{flushleft}
+\begin{flushleft}
+The big advantage over the SimSiam approach is the realative low number of epochs it needs. 
 In fact around 100 epochs are needed to have an effective pretrain, allowing us to complete the training in a 
 single colab session in less than 2 hours.
 \end{flushleft}

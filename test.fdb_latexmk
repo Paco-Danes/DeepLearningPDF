@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1678211534 "c:/Users/devin/Desktop/Università/DeepLearning/Project/test.tex" "test.pdf" "test" 1678211535
+["pdflatex"] 1678553700 "c:/Users/devin/Desktop/Università/DeepLearning/Project/test.tex" "test.pdf" "test" 1678553701
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993058908 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -42,10 +42,11 @@
   "C:/Users/devin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1656863887 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/devin/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1656864878 11548 440433d61cd77a4b01aedfef4c5c1977 ""
   "C:/Users/devin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1656863890 10316885 bf6526c5608e614f1cf8746ea2a902ed ""
-  "c:/Users/devin/Desktop/Università/DeepLearning/Project/test.tex" 1678211533 5604 e76fa13bf5d991544a744b523816d5ad ""
+  "c:/Users/devin/Desktop/Università/DeepLearning/Project/test.tex" 1678553699 6821 44693777f206ca2aea96a6cc7aac461b ""
   "img//AL-loop.png" 1678122002 25688 47d980bb1250784c9e9b83df0a37b7cf ""
-  "test.aux" 1678211534 470 69a0a5f5d6b3db4fff01d272af064345 "pdflatex"
-  "test.tex" 1678211533 5604 e76fa13bf5d991544a744b523816d5ad ""
+  "img//rotations.jpg" 1678551479 207676 4c87530d19d180650b2d81941dee52e2 ""
+  "test.aux" 1678553700 975 7355de60cf856a60bf4257a15ff0a6bd "pdflatex"
+  "test.tex" 1678553699 6821 44693777f206ca2aea96a6cc7aac461b ""
   (generated)
   "test.aux"
   "test.log"

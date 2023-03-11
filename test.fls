@@ -176,6 +176,12 @@ INPUT .\img\\AL-loop.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\devin\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT .\img\\rotations.jpg
+INPUT img\\rotations.jpg
+INPUT .\img\\rotations.jpg
+INPUT .\img\\rotations.jpg
+INPUT .\img\\rotations.jpg
+INPUT .\img\\rotations.jpg
 INPUT test.aux
 INPUT C:\Users\devin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\devin\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
